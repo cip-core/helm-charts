@@ -2,6 +2,28 @@ apiVersion: v1
 entries:
   vscode-nodejs:
   - apiVersion: v2
+    created: "2023-03-03T13:44:43.993599495Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.3.8
+    description: The Visual Studio Code IDE with Node.js, and a collection of standard
+      data science packages.
+    digest: 399565b7f7c7acf34bdb927956314b12cd7a39c93ea3ac89ae6b182b7c2ceb08
+    home: https://code.visualstudio.com/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
+    keywords:
+    - VSCode
+    - Node.js
+    name: vscode-nodejs
+    sources:
+    - https://github.com/cip-core/images-datascience
+    - https://github.com/cip-core/helm-charts
+    type: application
+    urls:
+    - https://github.com/cip-core/helm-charts/releases/download/vscode-nodejs-0.1.2/vscode-nodejs-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     created: "2023-03-02T11:59:05.778083348Z"
     dependencies:
     - name: library-chart
@@ -23,4 +45,4 @@ entries:
     urls:
     - https://github.com/cip-core/helm-charts/releases/download/vscode-nodejs-0.1.1/vscode-nodejs-0.1.1.tgz
     version: 0.1.1
-generated: "2023-03-02T11:59:05.778088748Z"
+generated: "2023-03-03T13:44:43.993617896Z"
