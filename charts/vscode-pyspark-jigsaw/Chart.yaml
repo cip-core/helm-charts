@@ -1,5 +1,5 @@
 apiVersion: v2
-name: vscode-jigsaw
+name: vscode-pyspark-jigsaw
 description: >
   The Visual Studio Code IDE based on Onyxia's PySpark image plus Apache Kafka, 
   MongoDB Server Community Edition, MongoDB Shell and Mongo-Spark-Connector
@@ -29,7 +29,7 @@ type: application
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
-version: 0.1.1
+version: 0.1.2
 
 dependencies:
   - name: library-chart
