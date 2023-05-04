@@ -150,9 +150,10 @@
               "version": {
                 "description": "vscode supported version",
                 "type": "string",
-                "default": "ciprnd/onyxia-vscode-pyspark-jigsaw:latest",
+                "default": "ciprnd/onyxia-vscode-pyspark-jigsaw:py3.10.9-spark3.3.1",
                 "listEnum": [
-                  "ciprnd/onyxia-vscode-pyspark-jigsaw:latest"
+                  "ciprnd/onyxia-vscode-pyspark-jigsaw:py3.10.9-spark3.3.1",
+                  "ciprnd/onyxia-vscode-pyspark-jigsaw:py3.9.16-spark3.3.1"
                 ],
                 "render": "list",
                 "pattern": "^[a-z0-9-_./]+(:[a-z0-9-_.]+)?$",
