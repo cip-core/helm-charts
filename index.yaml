@@ -1,6 +1,56 @@
 apiVersion: v1
 entries:
+  vscode-jigsaw:
+  - apiVersion: v2
+    created: "2023-05-04T09:48:18.827054931Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.3.14
+    description: 'The Visual Studio Code IDE based on Onyxia''s PySpark image plus
+      Apache Kafka,  MongoDB Server Community Edition, MongoDB Shell and Mongo-Spark-Connector '
+    digest: 3e8f3424b5e6c4650efca7c8e9891e2a4cedfc391de154fc667e120a7c7dfe4f
+    home: https://code.visualstudio.com/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
+    keywords:
+    - VSCode
+    - Python
+    - Spark
+    - VTL
+    - Kafka
+    - MongoDB
+    - OpenJDK
+    name: vscode-jigsaw
+    sources:
+    - https://github.com/cip-core/images-datascience
+    - https://github.com/cip-core/helm-charts
+    type: application
+    urls:
+    - https://github.com/cip-core/helm-charts/releases/download/vscode-jigsaw-0.1.1/vscode-jigsaw-0.1.1.tgz
+    version: 0.1.1
   vscode-nodejs:
+  - apiVersion: v2
+    created: "2023-05-04T09:48:18.977667672Z"
+    dependencies:
+    - name: library-chart
+      repository: https://inseefrlab.github.io/helm-charts-interactive-services
+      version: 1.3.14
+    description: The Visual Studio Code IDE with Node.js, and a collection of standard
+      data science packages.
+    digest: 186decb067529d22cb8382c08b318831d4d774a168a5cfe627d3baa681ffd34b
+    home: https://code.visualstudio.com/
+    icon: https://minio.lab.sspcloud.fr/projet-onyxia/assets/servicesImg/vscode.png
+    keywords:
+    - VSCode
+    - Node.js
+    name: vscode-nodejs
+    sources:
+    - https://github.com/cip-core/images-datascience
+    - https://github.com/cip-core/helm-charts
+    type: application
+    urls:
+    - https://github.com/cip-core/helm-charts/releases/download/vscode-nodejs-0.1.4/vscode-nodejs-0.1.4.tgz
+    version: 0.1.4
   - apiVersion: v2
     created: "2023-03-03T14:08:13.703645229Z"
     dependencies:
@@ -67,4 +117,4 @@ entries:
     urls:
     - https://github.com/cip-core/helm-charts/releases/download/vscode-nodejs-0.1.1/vscode-nodejs-0.1.1.tgz
     version: 0.1.1
-generated: "2023-03-03T14:08:13.703658229Z"
+generated: "2023-05-04T09:48:18.977693472Z"
