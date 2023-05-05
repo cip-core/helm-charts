@@ -150,10 +150,10 @@
               "version": {
                 "description": "vscode supported version",
                 "type": "string",
-                "default": "ciprnd/onyxia-vscode-nodejs:19.7.0",
+                "default": "ciprnd/onyxia-vscode-nodejs:v19.7.0",
                 "listEnum": [
-                  "ciprnd/onyxia-vscode-nodejs:19.7.0",
-                  "ciprnd/onyxia-vscode-nodejs:18.14.2"
+                  "ciprnd/onyxia-vscode-nodejs:v19.7.0",
+                  "ciprnd/onyxia-vscode-nodejs:v18.14.2"
                 ],
                 "render": "list",
                 "pattern": "^[a-z0-9-_./]+(:[a-z0-9-_.]+)?$",
